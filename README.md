@@ -20,7 +20,7 @@ $ boot2docker ip
 
 To interact with the RStudio Server, point your Broswer at:
 
-Firefox http://<<IP_ADDRESS>>:8787
+Firefox http://IP_ADDRESS:8787
 
 login using credentials guest/guest
 
