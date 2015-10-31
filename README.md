@@ -6,7 +6,7 @@ To build the Docker image:
 $ docker build -t spicozzi/rstudio2 .
 
 To pull down the image on docker hub:
-$ dockewr pull spicozzi/rstudio2
+$ docker pull spicozzi/rstudio2
 
 To launch an instance of the container:
 $ docker run -it -p 8787:8787 spicozzi/rstudio2
