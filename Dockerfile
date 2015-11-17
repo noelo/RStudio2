@@ -8,7 +8,7 @@ ENV HTTP_PROXY http://gc-prd-squid.itc.griffith.edu.au:3128
 ENV no_proxy gc-dev-pocmaster00.itc.griffith.edu.au,gc-dev-pocinfranode00.itc.griffith.edu.au,gc-dev-pocnode00.itc.griffith.edu.au,gc-dev-pocnode01.itc.griffith.edu.au,gc-dev-pocoselab.itc.griffith.edu.au,172.30.155.30
 ENV http_proxy http://gc-prd-squid.itc.griffith.edu.au:3128
 
-cat /etc/yum.conf
+RUN cat /etc/yum.conf
 
 #RUN yum makecache fast
 
